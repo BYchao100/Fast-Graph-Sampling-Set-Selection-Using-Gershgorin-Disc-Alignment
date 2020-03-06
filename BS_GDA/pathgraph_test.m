@@ -2,7 +2,7 @@ clear;
 close all;
 
 %% path graph generation
-n=1000; % number of nodes on a path graph
+n=100; % number of nodes on a path graph
 
 A=zeros(n,n);
 v1=ones(n-1,1);

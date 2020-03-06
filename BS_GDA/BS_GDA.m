@@ -49,27 +49,18 @@ while abs(right-left)>epsilon
     end
 end
 
-if flag
-    [ selected_pebbles ] = greedy_sampling( d,neis,neis_n,neis_w,n,mu,left,K,pebbles_order,p_hops );
-else
-    [ selected_pebbles ] = greedy_sampling( d,neis,neis_n,neis_w,n,mu,right,K,pebbles_order,p_hops );
+
+[ selected_pebbles ] = greedy_sampling( d,neis,neis_n,neis_w,n,mu,right,K,pebbles_order,p_hops );
+if ~flag
     fprintf('Warning: epsilon is set too large, sub-optimal lower bound is output.\n');
-end
-
-%%
-sampling_n=sum(selected_pebbles>0);
-
-if sampling_n<K
-    tmp=1:n;
-    tmp=tmp(selected_pebbles<1);
-    tmp_s=randperm(n-sampling_n,K-sampling_n);
-    selected_pebbles(tmp(tmp_s))=1;        
 end
 
 tmp=1:n;
 selected_pebbles_out=tmp(selected_pebbles>0);
 
 end
+
+
 
 
 

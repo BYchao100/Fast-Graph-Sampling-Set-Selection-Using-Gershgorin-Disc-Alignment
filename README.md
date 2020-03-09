@@ -1,6 +1,6 @@
 # Fast Graph Sampling Using Gershgorin Disc Alignment
 
-Source code for our paper "Fast Graph Sampling Set Selection Using Gershgorin Disc Alignment".
+Source code of our paper "Fast Graph Sampling Set Selection Using Gershgorin Disc Alignment".
 Very fast deterministic graph sampling algorithm without explicit eigen-decomposition.
 
 ## Prerequisite

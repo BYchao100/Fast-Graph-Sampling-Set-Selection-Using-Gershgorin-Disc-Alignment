@@ -1,4 +1,4 @@
 
 %% compile the .cpp codes
-mex computing_sets.cpp
-mex solving_set_covering.cpp
+mex -compatibleArrayDims computing_sets.cpp
+mex -compatibleArrayDims solving_set_covering.cpp

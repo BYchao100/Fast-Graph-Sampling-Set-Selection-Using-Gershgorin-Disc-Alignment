@@ -17,10 +17,13 @@ Step 2. run pathgraph_test.m as a path graph sampling example
 ## Citation
 
 ```
-@article{bai2019fast,
-  title={Fast Graph Sampling Set Selection Using Gershgorin Disc Alignment},
+@article{bai2020fast,
+  title={Fast graph sampling set selection using gershgorin disc alignment},
   author={Bai, Yuanchao and Wang, Fen and Cheung, Gene and Nakatsukasa, Yuji and Gao, Wen},
-  journal={arXiv preprint arXiv:1907.06179},
-  year={2019}
+  journal={IEEE Transactions on Signal Processing},
+  volume={68},
+  pages={2419--2434},
+  year={2020},
+  publisher={IEEE}
 }
 ```
